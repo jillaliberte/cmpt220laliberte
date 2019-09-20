@@ -6,7 +6,7 @@ public class OuncesToGrams {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner (System.in);
 		System.out.print("Enter a value in ounces");
-		int num1 = input.nextInt();
+		double num1 = input.nextDouble(); // JA: This variable has to be a double
 		System.out.print (num1);
 		System.out.print (" ounces is ");
 		System.out.print (num1 * 28.3495);
