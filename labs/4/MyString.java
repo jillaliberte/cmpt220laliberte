@@ -17,7 +17,7 @@ public class MyString {
 	
 	
 	public static String reverse(String s) {
-		String rev = " ";
+		String rev = ""; // JA: Empty string
 		char characters []= s.toCharArray();
 		
 		for (int i = (characters.length - 1); i >= 0; i--) {
@@ -29,7 +29,7 @@ public class MyString {
 	public static boolean isPalindrome (String s) {
 		boolean answer = false;
 		String rev = reverse(s);
-		if (s == rev) {
+		if (s.equals(rev)) { // JA: You have to sue equals()
 			answer = true;
 		}
 		return answer;

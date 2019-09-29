@@ -1,4 +1,6 @@
 import java.util.Scanner;
+
+// JA: You should always add comments to your code
 public class AlmostPerfect {
 	
 	public static int total(int n) {
