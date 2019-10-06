@@ -31,7 +31,7 @@ public class Triangular {
 	public static boolean isUpperTriangular(double[][] array) {
 		for (int i = 0; i < array.length; i++ ) {
 			for (int j = 0; j < array.length; j++) {
-				if (j>i && array[i][j]>0)
+				if (i>j && array[i][j]>0) //JA
 					return false;
 				}	
 			}

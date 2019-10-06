@@ -20,17 +20,17 @@ public class StandardDeviation {
 		for (int i = 0; i < x.length; i++ ) {
 			dev += Math.pow ((x[i]-mean(x)), 2);
 		}
-		return Math.sqrt(dev/10);
+		return Math.sqrt(dev/10 - 1);
 	}
 	
 	
 	public static double mean(double[] x) {
-	double sum = 0;		
-	for (int i = 1; i < x.length; i++ ) {
-		sum = sum + x[i];	
-	}
-	double average = sum/10;
-	return average;
+		double sum = 0;		
+		for (int i = 1; i < x.length; i++ ) {
+			sum = sum + x[i];	
+		}
+		double average = sum/10;
+		return average;
 	}
 
 }
