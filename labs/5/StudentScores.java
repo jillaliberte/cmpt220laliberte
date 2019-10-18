@@ -44,6 +44,7 @@ public class StudentScores {
 				nameSort = students [i];
 				students [i] = students [count];
 				students[count] = nameSort; 
+				// JA: You also need to swap the scores array
 				
 			}
 				
