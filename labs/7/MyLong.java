@@ -35,8 +35,8 @@ public class MyLong {
 		}
 		return false;
 	}
-	public boolean equals() {
-		if (value.equals(this.value)) {
+	public boolean equals(MyLong o) {
+		if (this.value == o.getValue()) {
 	return true;
 		}
 		return false; 
