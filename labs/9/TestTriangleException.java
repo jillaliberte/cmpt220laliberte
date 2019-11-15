@@ -1,4 +1,4 @@
-
+// JA: This exception should be thrown by the Triangle class when an invalid triangle is created
 public class TestTriangleException {
 	public static void main (String[]args) {
 		try {

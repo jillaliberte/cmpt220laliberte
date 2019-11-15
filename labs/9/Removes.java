@@ -4,7 +4,7 @@ import java.util.*;
 public class Removes {
 
 	public static void main(String[] args) throws Exception {
-		if (args.length != 4) {
+		if (args.length != 2) {
 			System.out.println("Usage: java RemoveText sourceFile ");
 			System.exit(1);
 		}
